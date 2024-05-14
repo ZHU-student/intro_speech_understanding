@@ -51,6 +51,6 @@ def sine_and_cosine(t_start, t_end, t_steps):
     # change these lines
     t = np.linspace(t_start, t_end, t_steps)
     x = np.cos(t)
-    y = np.sin(t)1
+    y = np.sin(t)
     # end changes here
     return t, x, y
